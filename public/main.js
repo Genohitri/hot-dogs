@@ -1,8 +1,4 @@
 $(document).ready(function(event) { 
-            // const display = document.getElementById('display');
-            // const form = document.getElementById('form');
-            // const hotDogUserInput = document.getElementById('hotDogUserInput');
-            // const message = document.getElementById('message');
        const hotDogRoute = '/hot-dogs';
 
        const loadHotDogs = () => {
