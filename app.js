@@ -10,8 +10,6 @@ const app = express();
 const port = process.env.PORT || appConfig.port;
 const dbURL = process.env.MONGODB_URI || db.url;
 
-console.log('******** env', process.env)
-
 app.use(bodyParser.urlencoded({
   extended: true
 }));
