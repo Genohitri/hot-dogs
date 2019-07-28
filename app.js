@@ -5,7 +5,7 @@ const db = require('./config/db');
 const routes = require('../app/routes');
 const appConfig = require('../app/config/app');
 const path = require('path');
-const mongoose = require(‘mongoose’);
+
 const app = express();
 const port = appConfig.port;
 const dbURL = process.env.MONGODB_URI || db.url;
