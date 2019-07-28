@@ -14,7 +14,7 @@ $(document).ready(function(event) {
                                    return `<li class="list-group-item">
                                    <input style="border: none;" value='${hotDog.title}' disabled />
                                    <button type="button" class='edit-hot-dog-button btn btn-warning' data-id=${hotDog._id}>edit</button>
-                                   <button type="button" class='delete-hot-dog-button  btn btn-danger' data-id=${hotDog._id}>X</button>
+                                   <button type="button" class='delete-hot-dog-button  btn btn-danger' data-id=${hotDog._id}>delete</button>
                                    </li>`
                             });
 
